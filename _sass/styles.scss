@@ -1,8 +1,10 @@
 // Import Core Clean Blog SCSS
 @import "../assets/vendor/startbootstrap-clean-blog/scss/styles.scss";
 
-.post img {
-  max-width: 75%;
+.post img,
+.post-content img {
+  width: 100%;
+  max-width: 600px !important;
   height: auto;
   display: block;
   margin: 20px auto;
