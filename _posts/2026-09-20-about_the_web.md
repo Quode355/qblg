@@ -18,6 +18,8 @@ author: quode
 
 # 1. 前置知识
 
+***
+
 ### -  什么是静态网站
 
 静态网站可以简单理解为:
@@ -43,21 +45,27 @@ github pages提供免费服务，不用租服务器，方便又好用。
 
 # 2. 搭建教程
 
+***
+
 ### 1. 创建一个github仓库
 
 左上角找到 **new**
 
-![create_project](img\posts\2026-09-20\21creatProject.png)
+![create_project]({{ site.baseurl }}/img
+/posts/2026-09-20/21creatProject.png)
 
 输入仓库名称后继续
 
-![22](img\posts\2026-09-20\22.png)
+![22]({{ site.baseurl }}/img
+/posts/2026-09-20/22.png)
 
 选择导入文件
 
-![23](img\posts\2026-09-20\23.png)
+![23]({{ site.baseurl }}/img
+/posts/2026-09-20/23.png)
 
-![24](img\posts\2026-09-20\24.png)
+![24]({{ site.baseurl }}/img
+/posts/2026-09-20/24.png)
 
 ### 2. 找模板
 
@@ -73,9 +81,11 @@ github pages提供免费服务，不用租服务器，方便又好用。
 
 下载模板后解压
 
-![25](img\posts\2026-09-20\25.png)
+![25]({{ site.baseurl }}/img
+/posts/2026-09-20/25.png)
 ->
-![26](img\posts\2026-09-20\26.png)
+![26]({{ site.baseurl }}/img
+/posts/2026-09-20/26.png)
 
 然后将解压后的文件夹打开至 **详细** 界面
 
@@ -83,13 +93,16 @@ github pages提供免费服务，不用租服务器，方便又好用。
 
 全选后拖入
 
-![27](img\posts\2026-09-20\27.png)
+![27]({{ site.baseurl }}/img
+/posts/2026-09-20/27.png)
 
 接下来文件会显示在下方，点击"*commit changes*"绿色按钮即可
 
-![29](img\posts\2026-09-20\29.png)
+![29]({{ site.baseurl }}/img
+/posts/2026-09-20/29.png)
 
-![30](img\posts\2026-09-20\30.png)
+![30]({{ site.baseurl }}/img
+/posts/2026-09-20/30.png)
 
 至此，网站框架已基本形成
 
@@ -97,19 +110,24 @@ github pages提供免费服务，不用租服务器，方便又好用。
 
 如果你在将文件拖入时显示如图，请不要慌张，后面会有解决办法
 
-![err](img\posts\2026-09-20\28.png)
+![err]({{ site.baseurl }}/img
+/posts/2026-09-20/28.png)
 
 # 3. 网站编写
+
+***
 
 ### 1. clone仓库到本地
 
 复制仓库地址
 
-![cc](img\posts\2026-09-20\301cc.png)
+![cc]({{ site.baseurl }}/img
+/posts/2026-09-20/301cc.png)
 
 or
 
-![ecc](img\posts\2026-09-20\302ecc.png)
+![ecc]({{ site.baseurl }}/img
+/posts/2026-09-20/302ecc.png)
 
 创建一个你准备存放网站文件的文件夹，并用vscode打开
 
@@ -119,7 +137,8 @@ or
 
 回车，结果如图
 
-![clo](img\posts\2026-09-20\303clo.png)
+![clo]({{ site.baseurl }}/img
+/posts/2026-09-20/303clo.png)
 
 可以看到左边已经有刚刚上传的网站文件了，可以在这里编写网站内容
 
@@ -133,15 +152,18 @@ or
 
 clone后会发现你创建的文件夹里多了一个下属文件夹
 
-![min](img\posts\2026-09-20\304min.png)
+![min]({{ site.baseurl }}/img
+/posts/2026-09-20/304min.png)
 
 和刚才一样，把解压后模板的 **详细** 界面全选，拖入 **下属** 文件夹里
 
-![in](img\posts\2026-09-20\305in.png)
+![in]({{ site.baseurl }}/img
+/posts/2026-09-20/305in.png)
 
 现在的vscode界面应该是这样
 
-![ed](img\posts\2026-09-20\306ed.png)
+![ed]({{ site.baseurl }}/img
+/posts/2026-09-20/306ed.png)
 
 接下来跟着教程走就行
 
@@ -153,11 +175,13 @@ clone后会发现你创建的文件夹里多了一个下属文件夹
 
 刚才未成功上传的则暂存所有修改
 
-![giv](img\posts\2026-09-20\307giv.png)
+![giv]({{ site.baseurl }}/img
+/posts/2026-09-20/307giv.png)
 
 提交
 
-![up](img\posts\2026-09-20\308up.png)
+![up]({{ site.baseurl }}/img
+/posts/2026-09-20/308up.png)
 
 接下来在命令栏依次输入
 
@@ -165,7 +189,8 @@ clone后会发现你创建的文件夹里多了一个下属文件夹
 
 下面会显示刚刚提交的文件
 
-![sta](img\posts\2026-09-20\309status.png)
+![sta]({{ site.baseurl }}/img
+/posts/2026-09-20/309status.png)
 
     git add .
 
@@ -175,31 +200,41 @@ clone后会发现你创建的文件夹里多了一个下属文件夹
 
 现在回去看仓库会发现文件已经上传了
 
-![push](img\posts\2026-09-20\310push.png)
+![push]({{ site.baseurl }}/img
+/posts/2026-09-20/310push.png)
 
 # 4. 网页查看
 
+***
+
 回到 github 仓库首页，依次点击 settings , pages
 
-![set](img\posts\2026-09-20\401set.png)
+![set]({{ site.baseurl }}/img
+/posts/2026-09-20/401set.png)
 
 branch 选择 main
 
-![main](img\posts\2026-09-20\402main.png)
+![main]({{ site.baseurl }}/img
+/posts/2026-09-20/402main.png)
 
 点击 "save"
 
-![sv](img\posts\2026-09-20\403sv.png)
+![sv]({{ site.baseurl }}/img
+/posts/2026-09-20/403sv.png)
 
 等待并刷新几次，大约五分钟后，你就会看到网页已经部署完毕
 
-![web](img\posts\2026-09-20\404web.png)
+![web]({{ site.baseurl }}/img
+/posts/2026-09-20/404web.png)
 
 复制链接并粘贴到浏览器，就可以看到网页了
 
-![wow](img\posts\2026-09-20\405wow.png)
+![wow]({{ site.baseurl }}/img
+/posts/2026-09-20/405wow.png)
 
 # 5. 结语
+
+***
 
 第一次写教程，有很多不足的地方，如果有不懂的可以问我
 
