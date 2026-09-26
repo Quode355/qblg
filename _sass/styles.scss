@@ -65,6 +65,7 @@ body {
 // 5. 图片
 // =================================
 
+// 图片大小
 .post-content img {
 
   max-width: 600px;
@@ -87,7 +88,11 @@ body {
 // 6. 代码块
 // =================================
 
-
+// 圆角
+.post-content pre[class*="language-"] {
+  border-radius: 10px;
+  overflow: hidden;
+}
 
 
 

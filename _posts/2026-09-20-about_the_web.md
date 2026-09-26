@@ -6,7 +6,8 @@ date: 2026-09-20
 author: quode
 ---
 
-这篇讲一下我使用github pages搭建静态网站的过程，主要分以下几个部分（点击可跳转相应位置）。  
+这篇讲一下我使用github pages搭建静态网站的过程，主要分以下几个部分（点击可跳转相应位置）
+
 1. [没什么用的前置知识](#1-前置知识)
 2. [搭建教程](#2-搭建教程)
 3. [网站编写](#3-网站编写)
@@ -133,7 +134,9 @@ or
 
 在命令栏输入
 
-    git clone [你的仓库地址]
+```bash
+git clone [你的仓库地址]
+```
 
 回车，结果如图
 
@@ -185,18 +188,22 @@ clone后会发现你创建的文件夹里多了一个下属文件夹
 
 接下来在命令栏依次输入
 
-    git status
+```bash
+git status
+```
 
 下面会显示刚刚提交的文件
 
 ![sta]({{ site.baseurl }}/img
 /posts/2026-09-20/309status.png)
 
-    git add .
+```bash
+git add .
 
-    git commit -m "[更新记录]"
+git commit -m "[更新记录]"
 
-    git push -u origin main
+git push -u origin main
+```
 
 现在回去看仓库会发现文件已经上传了
 
