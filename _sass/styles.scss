@@ -1,10 +1,141 @@
-// Import Core Clean Blog SCSS
+// =================================
+// 1. 导入样式
+// =================================
+
 @import "../assets/vendor/startbootstrap-clean-blog/scss/styles.scss";
 
-.col-lg-8 img {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
-  display: block;
-  margin: 20px auto;
+
+
+// =================================
+// 2. 全局变量
+// =================================
+
+$main-font: "Microsoft YaHei", sans-serif;
+
+$main-color: #0085a1;
+$text-color: #333;
+
+
+// =================================
+// 3. 全局基础设置
+// =================================
+
+body {
+  font-family: $main-font;
+  color: $text-color;
+  line-height: 1.8;
 }
+
+
+// =================================
+// 4. 文章区域
+// =================================
+
+.post-content {
+
+  // 正文字体
+  font-size: 18px;
+
+
+  // 标题
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-top: 40px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+
+  // 段落
+  p {
+    margin-bottom: 20px;
+  }
+
+}
+
+
+
+// =================================
+// 5. 图片
+// =================================
+
+.post-content img {
+
+  max-width: 600px;
+  width: 100%;
+
+  height: auto;
+
+  display: block;
+
+  margin: 20px auto;
+
+  border-radius: 10px;
+
+}
+
+
+
+
+// =================================
+// 6. 代码块
+// =================================
+
+
+
+
+
+// =================================
+// 7. 引用
+// =================================
+
+.post-content blockquote {
+
+  border-left: 5px solid $main-color;
+
+  padding-left: 20px;
+
+  color: #666;
+
+}
+
+
+
+// =================================
+// 8. 链接
+// =================================
+
+.post-content a {
+
+  color: $main-color;
+
+}
+
+
+
+// =================================
+// 9. 首页文章列表
+// =================================
+
+.post-preview {
+
+  margin-bottom: 40px;
+
+}
+
+
+
+// =================================
+// 10. 小组件
+// =================================
+
+// 目录
+// 评论
+// 返回顶部
+// 阅读进度条
