@@ -2,6 +2,7 @@
 layout: post
 title: 如何搭建静态网站
 subtitle: github静态网站托管
+background: '/img/posts/2026-09-20/bg.jpg'
 date: 2026-09-20
 author: quode
 ---
