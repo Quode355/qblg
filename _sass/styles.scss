@@ -33,26 +33,36 @@ body {
 
 .post-content {
 
-  // 正文字体
   font-size: 18px;
 
-
-  // 标题
   h1 {
     font-size: 36px;
   }
 
   h2 {
     font-size: 30px;
-    margin-top: 40px;
+    font-weight: 700;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    line-height: 1.4;
   }
 
   h3 {
     font-size: 24px;
+    font-weight: 600;
+    margin-top: 35px;
+    margin-bottom: 16px;
+    line-height: 1.5;
   }
 
+  h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 28px;
+    margin-bottom: 12px;
+    line-height: 1.5;
+  }
 
-  // 段落
   p {
     margin-bottom: 20px;
   }
@@ -134,13 +144,78 @@ body {
 
 }
 
+// =================================
+// 10. 文章目录
+// =================================
+
+.post-toc {
+  position: absolute;
+
+  left: 40px;
+  top: 620px;
+
+  width: 220px;
+
+  z-index: 100;
+
+  padding: 16px 18px;
+
+  background: #f8f9fa;
+  border-left: 3px solid $main-color;
+  border-radius: 6px;
+}
+
+.toc-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+// .toc-title {
+//   font-size: 18px;
+//   font-weight: bold;
+//   margin-bottom: 10px;
+// }
+
+.post-toc ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.post-toc li {
+  margin-bottom: 8px;
+}
+
+.post-toc a {
+  color: #555;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.post-toc a:hover {
+  color: $main-color;
+}
+
+.post-toc.is-fixed {
+  position: fixed;
+  left: 40px;
+  top: 100px;
+}
+
+// 滚动后固定在浏览器左上方
+.post-toc.is-fixed {
+  position: fixed;
+
+  left: 40px;
+  top: 100px;
+}
 
 
 // =================================
-// 10. 小组件
+// 11. 其他
 // =================================
 
-// 目录
 // 评论
 // 返回顶部
 // 阅读进度条
